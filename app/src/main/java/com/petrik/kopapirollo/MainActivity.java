@@ -29,11 +29,21 @@ public class MainActivity extends AppCompatActivity {
 
     private void init(){
         kobutton=findViewById(R.id.ko_button);
+
         papirbutton=findViewById(R.id.papir_button);
         ollobutton=findViewById(R.id.ollo_button);
         tevalasztas=findViewById(R.id.te_valasztas);
         gepvalasztas=findViewById(R.id.gep_valasztas);
         random=new Random();
 
+    }
+    private void koGomb(){
+        tevalasztas.setImageResource(R.drawable.rock);
+    }
+    private  void papirGomb(){
+        tevalasztas.setImageResource(R.drawable.paper);
+    }
+    private void ollogomb(){
+        tevalasztas.setImageResource(R.drawable.scissors);
     }
 }
