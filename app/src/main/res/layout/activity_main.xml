@@ -13,31 +13,31 @@
         android:gravity="center">
 
         <ImageView
-            android:layout_width="150sp"
-            android:layout_height="150sp"
-            android:id="@+id/tevalasztas"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:id="@+id/te_valasztas"
             android:src="@drawable/scissors"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="A te választásod"
-            android:textSize="35sp"/>
+            android:textSize="50sp"/>
         <ImageView
-            android:layout_width="150sp"
-            android:layout_height="150sp"
-            android:id="@+id/gepvalasztas"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:id="@+id/gep_valasztas"
             android:src="@drawable/scissors"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="A gép választása"
-            android:textSize="35sp"/>
+            android:textSize="50sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Eredmény: Ember: 0 Computer: 0"
             android:id="@+id/eredmeny"
-            android:textSize="25sp"/>
+            android:textSize="26sp"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,19 +47,19 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/kobutton"
+                android:id="@+id/ko_button"
                 android:text="KŐ"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/papirbutton"
+                android:id="@+id/papir_button"
                 android:text="PAPÍR"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/ollobutton"
+                android:id="@+id/ollo_button"
                 android:text="OLLÓ"/>
 
         </LinearLayout>
